@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  /*! color variables*/
+  --lightGreen: #E7FFF3;
+  --black: rgb(0, 0, 0);
+  --green: #00BF62;
+  --darkGreen: #0A7140;
+  /*! size variables*/
+  --xl: calc(1rem + 8px);
+  --lg: calc(1rem + 1px);
+  --md: calc(1rem - 1px);
+  --sm: calc(1rem - 3px);
+  --xs: calc(1rem + 1px);
+}
+
+/*! Meyer’s Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  /*! global font */
+  font-family: "Mulish", serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+
+/*! font sizes start */
+.fs_xl {
+  font-size: var(--xl);
+}
+
+.fs_lg {
+  font-size: var(--lg);
+}
+
+.fs_md {
+  font-size: var(--md);
+}
+
+.fs_sm {
+  font-size: var(--sm);
+}
+
+.fs_xs {
+  font-size: var(--xs);
+}
+
+/* font sizes ends */
