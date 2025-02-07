@@ -1,0 +1,34 @@
+.global-business__title {
+    text-align: center;
+}
+
+.global-business__column {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.global-business__card {
+    max-width: 290px;
+    padding: 30px;
+    gap: 20px;
+    border-color: var(--green) !important;
+    border-radius: 20px !important;
+    margin-top: 20px;
+}
+
+.global-business__item {
+    display: flex;
+    gap: 10px;
+}
+
+.global-business__text--top {
+    font-weight: 500;
+}
+
+.global-business__separator {
+    width: 100px;
+    height: 2px;
+    background-color: var(--green);
+    margin: 0 auto;
+}
