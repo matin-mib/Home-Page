@@ -45,10 +45,10 @@ h6 {
   margin: 0;
 }
 
-ol,
+/* ol,
 ul {
   list-style: none;
-}
+} */
 
 a {
   text-decoration: none;

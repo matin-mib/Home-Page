@@ -1,0 +1,28 @@
+.customer-reviews__title {
+    text-align: center;
+}
+
+.customer-reviews__row {
+    align-items: center;
+}
+
+.customers-reviews__card {
+    background-color: #DFF5E9 !important;
+    border: none !important;
+    max-width: 750px;
+    margin: 20px 0;
+}
+
+.customer-reviews__employer {
+    color: var(--darkGreen) !important;
+    margin: 10px 0 !important;
+}
+
+.customers-reviews__image-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.customer-reviews__role {
+    color: var(--green) !important;
+}
