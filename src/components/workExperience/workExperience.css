@@ -1,0 +1,29 @@
+.work-experience__container {
+    padding: 20px 0;
+}
+
+.work-experience__title {
+    text-align: center;
+}
+
+.work-experience__list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.work-experience__card {
+    border: none !important;
+    width: 18rem;
+}
+
+.work-experience__image {
+    height: 300px;
+    object-fit: contain;
+}
+
+.work-experience__card-title {
+    text-align: center;
+    font: bold !important;
+}

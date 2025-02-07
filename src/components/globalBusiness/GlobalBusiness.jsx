@@ -5,7 +5,7 @@ import { faCreditCard } from '@fortawesome/free-regular-svg-icons'
 
 const GlobalBusiness = () => {
     return (
-        <Container>
+        <Container className="global-business__container">
             <h2 className="global-business__title">Qlobal İş İmkanları</h2>
             <Row>
                 <Col md={6} className="global-business__column">

@@ -3,7 +3,7 @@ import './customersReviews.css';
 
 const CustomersReviews = () => {
     return (
-        <Container>
+        <Container className="customer-reviews__container">
             <h2 className="customer-reviews__title">Müştəri Rəylərimiz</h2>
             <Row className="customer-reviews__row">
                 <Col md={12} lg={6} xl={6}>

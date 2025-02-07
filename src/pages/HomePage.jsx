@@ -1,5 +1,6 @@
 import Customers from "../components/customers/CustomersReviews"
 import GlobalBusiness from "../components/globalBusiness/GlobalBusiness"
+import WorkExperience from "../components/workExperience/WorkExperience"
 
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
         <>
             <Customers />
             <GlobalBusiness />
+            <WorkExperience />
         </>
     )
 }
