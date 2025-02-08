@@ -8,13 +8,13 @@ const Footer = () => {
     <footer>
       <Container>
         <Row className="footer__row">
-          <Col xl={6} className="footer__description">
+          <Col lg={6} xl={6} className="footer__description">
             <span className="footer__logo">getjob</span>
             <p className="footer__text">
               Ən yaxşı istiqamətləri kəşf edin və unudulmaz təcrübə yaradın
             </p>
           </Col>
-          <Col xl={6} className="footer__sections">
+          <Col lg={6} xl={6} className="footer__sections">
             <div className="footer__section">
               <h5 className="footer__title">Şərtlər</h5>
               <ul className="footer__list">

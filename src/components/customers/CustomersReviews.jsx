@@ -11,7 +11,7 @@ const CustomersReviews = () => {
             <Container className="customer-reviews__container">
                 <h2 className="customer-reviews__title">Müştəri Rəylərimiz</h2>
                 <Row className="customer-reviews__row">
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={7} xl={7}>
                         <Card className="customers-reviews__card">
                             <Card.Body>
                                 <Card.Title>İşəgötürən:</Card.Title>
@@ -25,19 +25,19 @@ const CustomersReviews = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={5} xl={5}>
                         <div className="customers-reviews__image-wrapper">
                             <Image src="./image1.png" className="customers-reviews__image" />
                         </div>
                     </Col>
                 </Row>
                 <Row className="customer-reviews__row">
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={5} xl={5}>
                         <div className="customers-reviews__image-wrapper">
                             <Image src="./image.png" className="customers-reviews__image" />
                         </div>
                     </Col>
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={7} xl={7}>
                         <Card className="customers-reviews__card">
                             <Card.Body>
                                 <Card.Subtitle className="customer-reviews__role">UI/UX Dizayner</Card.Subtitle>
@@ -54,7 +54,7 @@ const CustomersReviews = () => {
                     </Col>
                 </Row>
                 <Row className="customer-reviews__row">
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={7} xl={7}>
                         <Card className="customers-reviews__card">
                             <Card.Body>
                                 <Card.Subtitle className="customer-reviews__role">Maliyyə və Hesabatlıq</Card.Subtitle>
@@ -68,7 +68,7 @@ const CustomersReviews = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={12} lg={6} xl={6}>
+                    <Col md={12} lg={5} xl={5}>
                         <div className="solar-system">
                             <div className="solar-system__sun"></div>
 

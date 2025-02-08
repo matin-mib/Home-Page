@@ -53,6 +53,7 @@ footer {
     list-style-type: none;
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 
 .footer__item {
@@ -62,6 +63,11 @@ footer {
 .footer__link {
     color: var(--dark);
     text-decoration: none;
+    transition: .5s;
+}
+
+.footer__link:hover {
+    color: var(--green);
 }
 
 .footer__divider {
