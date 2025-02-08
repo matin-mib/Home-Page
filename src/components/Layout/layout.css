@@ -52,6 +52,7 @@ footer {
 .footer__list {
     list-style-type: none;
     text-align: center;
+    margin: 0;
 }
 
 .footer__item {
@@ -86,4 +87,18 @@ footer {
 
 .footer__social-link:hover {
     color: var(--green);
+}
+
+@media(max-width:768px) {
+    .footer__description {
+        justify-content: center;
+    }
+
+    .footer__sections {
+        justify-content: center;
+    }
+
+    .footer__section {
+        width: 300px;
+    }
 }

@@ -1,5 +1,13 @@
+.customer-reviews {
+    overflow: hidden;
+}
+
 .customer-reviews__container {
     padding: 20px 0px;
+}
+
+.customer-reviews__row {
+    position: relative;
 }
 
 .customer-reviews__title {
@@ -46,18 +54,17 @@
     align-items: center;
     background-color: transparent;
     border-radius: 50%;
+    right: -65%;
 }
 
-.sun {
+.solar-system__sun {
     width: 50px;
     height: 50px;
-    background-color: yellow;
     border-radius: 50%;
-    box-shadow: 0 0 20px yellow;
     position: absolute;
 }
 
-.orbit {
+.solar-system__orbit {
     position: absolute;
     border: 1px dashed black;
     border-radius: 50%;
@@ -67,7 +74,7 @@
     align-items: center;
 }
 
-.planet {
+.solar-system__icon {
     width: 15px;
     height: 15px;
     background-color: white;
@@ -75,47 +82,43 @@
     position: absolute;
 }
 
-.mercury {
-    width: 80px;
-    height: 80px;
+.solar-system__orbit--wifi {
+    width: 120px;
+    height: 120px;
     animation-duration: 3s;
 }
 
-.mercury-planet {
-    background-color: gray;
-    top: -5px;
+.solar-system__icon--wifi {
+    top: -10px;
 }
 
-.venus {
-    width: 120px;
-    height: 120px;
+.solar-system__orbit--internet {
+    width: 180px;
+    height: 180px;
     animation-duration: 6s;
 }
 
-.venus-planet {
-    background-color: orange;
-    top: -7px;
+.solar-system__icon--internet {
+    top: -10px;
 }
 
-.earth {
-    width: 160px;
-    height: 160px;
+.solar-system__orbit--laptop {
+    width: 240px;
+    height: 240px;
     animation-duration: 10s;
 }
 
-.earth-planet {
-    background-color: blue;
-    top: -8px;
+.solar-system__icon--laptop {
+    top: -12px;
 }
 
-.mars {
-    width: 200px;
-    height: 200px;
+.solar-system__orbit--user {
+    width: 320px;
+    height: 320px;
     animation-duration: 15s;
 }
 
-.mars-planet {
-    /* background-color: red; */
+.solar-system__icon--user {
     top: -15px;
 }
 
@@ -126,5 +129,11 @@
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 992px) {
+    .solar-system {
+        display: none;
     }
 }
