@@ -1,5 +1,7 @@
 import { Card, Col, Container, Image, Row } from "react-bootstrap"
 import './customersReviews.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 const CustomersReviews = () => {
     return (
@@ -62,6 +64,31 @@ const CustomersReviews = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                </Col>
+                <Col md={12} lg={6} xl={6}>
+                    <div className="solar-system">
+                        <div className="sun"></div>
+
+                        <div className="orbit mercury">
+                            <div className="planet mercury-planet">
+
+                            </div>
+                        </div>
+
+                        <div className="orbit venus">
+                            <div className="planet venus-planet"></div>
+                        </div>
+
+                        <div className="orbit earth">
+                            <div className="planet earth-planet"></div>
+                        </div>
+
+                        <div className="orbit mars">
+                            <div className="planet mars-planet">
+                                <FontAwesomeIcon icon={faUser} />
+                            </div>
+                        </div>
+                    </div>
                 </Col>
             </Row>
         </Container >

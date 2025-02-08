@@ -11,7 +11,7 @@
 }
 
 .customers-reviews__card {
-    background-color: #DFF5E9 !important;
+    background-color: var(--lightGreen) !important;
     border: none !important;
     max-width: 750px;
     margin: 20px 0;
@@ -29,4 +29,102 @@
 
 .customer-reviews__role {
     color: var(--green) !important;
+}
+
+
+
+
+
+/*! ORBIT */
+.solar-system {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.sun {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 20px yellow;
+    position: absolute;
+}
+
+.orbit {
+    position: absolute;
+    border: 1px dashed black;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.mercury {
+    width: 80px;
+    height: 80px;
+    animation-duration: 3s;
+}
+
+.mercury-planet {
+    background-color: gray;
+    top: -5px;
+}
+
+.venus {
+    width: 120px;
+    height: 120px;
+    animation-duration: 6s;
+}
+
+.venus-planet {
+    background-color: orange;
+    top: -7px;
+}
+
+.earth {
+    width: 160px;
+    height: 160px;
+    animation-duration: 10s;
+}
+
+.earth-planet {
+    background-color: blue;
+    top: -8px;
+}
+
+.mars {
+    width: 200px;
+    height: 200px;
+    animation-duration: 15s;
+}
+
+.mars-planet {
+    /* background-color: red; */
+    top: -15px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
